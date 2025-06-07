@@ -98,8 +98,8 @@ corpus = docs
 #devtools::install_github("Cui-STT-Lab/gnSPADE")
 library(gnSPADE)
 gnModel = WRLDA(docs, k=4, lambda = 1, neiPath = correlation_list)
-corPlot_matchall(gnModel$phi, beta.true, gnModel$theta, theta.true)
+corPlot_matchall(gnModel$phi, beta.true, gnModel$theta, theta.true, title = 'Matched results in gnSPADE')
 ```
-<img width="647" alt="image" src="https://github.com/user-attachments/assets/5281958c-347a-4ca2-b44b-e622dd0f4632" />
+<img width="644" alt="image" src="https://github.com/user-attachments/assets/78d06116-81a6-4b53-913b-abd050666680" />
 
 
