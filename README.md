@@ -11,12 +11,14 @@ You can install the development version of gwSPADE from [GitHub](https://github.
 devtools::install_github("Cui-STT-Lab/gnSPADE")
 ```
 
-#### **Run gnSPADE with Example Data**
 ## Run gnSPADE with Example Data
 
-The function WLDA takes the spatial transcriptomics data matrix `corpus` (spots x genes) as inputs.
+#### **Run gnSPADE with cell type specific gene related Simulated Data**
+
+The function `WRLDA` takes the spatial transcriptomics data matrix `corpus` (spots x genes) as inputs.
 
 The `corpus` needs to be non-transformed counts (or round the data to the nearest integers).
+
 ```r
 n_topics <- k <- 4
 n_docs <- 1000
