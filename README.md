@@ -3,7 +3,7 @@ gnSPADE is a reference-free SPAtial DEconvolution method incorporating gene netw
 ![gnSPADE_overview](https://github.com/user-attachments/assets/19c719ed-3380-4b8a-b936-eaea8b84d046)
 
 ## Citation
-Xie, A and Y Cui. (2026) gnSPADE: Incorporating Gene Network Structures Enhances Reference‐Free Deconvolution in Spatial Transcriptomics. Advanced Intelligent Systems, e202500639.
+Xie, A and Y Cui. (2026) gnSPADE: Incorporating Gene Network Structures Enhances Reference‐Free Deconvolution in Spatial Transcriptomics. *Advanced Intelligent Systems*, e202500639.
 
 ## Installation
 
